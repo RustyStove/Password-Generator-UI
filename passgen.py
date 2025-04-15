@@ -14,9 +14,7 @@ def passwordgen():
     c1 = var.get()
     c2 = var2.get()
     c3 = var3.get()
-    #find out how to check the checkbox state and add randomizarion code in elif and find out how to stop enter letters
     if is_integer(numlength) and numlength > 0:
-        #messagebox.showinfo("Password", "length= " + str(numlength) +" "+ str(c1)+ str(c2)+ str(c3))
         if c1 == 1:
             characterList += string.digits
         if c2 == 1:
